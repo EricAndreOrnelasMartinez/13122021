@@ -86,12 +86,10 @@ p{
     padding-bottom: 20px;
 }
 img{
-    border-radius: 50px;
+    border-radius: 200px;
     transition: all 0.4s linear;
 }
 img:hover{
     border-radius: 0px;
 }
-.imagen9{
-    border-radius: 0px;
-}
+
