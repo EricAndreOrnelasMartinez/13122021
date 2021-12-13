@@ -3,7 +3,8 @@ const form = document.getElementById('form')
 const main = document.getElementById('main')
 show.addEventListener('click', e =>{
     e.preventDefault()
-    form.innerHTML = '<input type="text" name="pass" placeholder="digita la contraseña"/> <input type="submit" value="Validar"/>'
+    form.innerHTML = `<input type="text" name="pass" placeholder="digita la contraseña"> 
+                      <input type="submit" value="Validar">`
 })
 
 form.addEventListener('submit', e =>{
