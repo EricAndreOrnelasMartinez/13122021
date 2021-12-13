@@ -1,5 +1,5 @@
 const show = document.getElementById('show')
-const form =document.getElementById('form')
+const form = document.getElementById('form')
 const main = document.getElementById('main')
 show.addEventListener('click', e =>{
     e.preventDefault()
@@ -8,7 +8,7 @@ show.addEventListener('click', e =>{
 
 form.addEventListener('submit', e =>{
     e.preventDefault()
-    let formdata = new FormData()
+    let formdata = new FormData(form)
     fetch('./PHP/getM.php', {
         method: 'POST',
         body: formdata
@@ -16,5 +16,8 @@ form.addEventListener('submit', e =>{
     .then(res => res.json())
     .then(data =>{
         main.innerHTML = data
-    })
+    }).catch(error => {
+        console.log(error)
+    }){
+    }
 })
