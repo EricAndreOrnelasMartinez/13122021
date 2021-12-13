@@ -85,11 +85,4 @@ p{
     background-color: rgba(255, 255, 255, 0.616);
     padding-bottom: 20px;
 }
-img{
-    border-radius: 200px;
-    transition: all 0.4s linear;
-}
-img:hover{
-    border-radius: 0px;
-}
 
