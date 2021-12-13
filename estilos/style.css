@@ -79,4 +79,6 @@ div{
 }
 p{
     color: white;
+    margin-right: 10%;
+    background-color: rgb(255, 255, 255,0.1);
 }
