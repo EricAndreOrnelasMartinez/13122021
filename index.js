@@ -18,6 +18,6 @@ form.addEventListener('submit', e =>{
         main.innerHTML = data
     }).catch(error => {
         console.log(error)
-    }){
+    })
     }
 })
